@@ -1,0 +1,143 @@
+/* Week 6: JavaScript Function Workshop Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #003262 0%, #0066CC 100%);
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    opacity: 0.95;
+    font-weight: 300;
+}
+
+main {
+    padding: 30px;
+}
+
+.info-card {
+    background: #f8f9fa;
+    border-left: 4px solid #667eea;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h2 {
+    color: #003262;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.info-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.info-card ul,
+.info-card ol {
+    margin-left: 25px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.info-card li {
+    margin-bottom: 8px;
+}
+
+code {
+    background: #e9ecef;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #d63384;
+    font-size: 0.9em;
+}
+
+.checkpoint {
+    border-left-color: #FDB515;
+    background: #fff8e1;
+}
+
+.checkpoint h2 {
+    color: #f57c00;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+    color: #666;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .info-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    header {
+        padding: 30px 20px;
+    }
+}
